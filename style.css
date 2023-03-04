@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap');
 
+
+
 body {
     background: hsl(217, 54%, 11%);
     padding: 0;
@@ -39,20 +41,48 @@ pre {
     color: hsl(215, 51%, 70%);
 }
 
-.oikk {
-    position: relative;
-    top: 90000px;
-    left: 90px;
-
-}
-
 hr {
     position: relative;
-    top: 37px;
+    
     width: 249px;
 }
 
-.pessoa1 {
-    width: 15px;
-    height: 15px;
+
+
+.avatar img {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border: 1px solid white;
+    border-radius: 50%;
+    left: 20px;
 }
+
+.avatar p {
+    position: relative;
+    left: 65px;
+    filter: opacity(75%);
+    bottom: 45px;
+}
+
+.avatar a {
+    color: aliceblue;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0.3rem 0;
+}
+
+ul li:first-child {
+    color: hsl(187, 100%, 50%);
+}
+
+.conteiner ul li img {
+    margin-right: 0.1rem;
+}
+
+
