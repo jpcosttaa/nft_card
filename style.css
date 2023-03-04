@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap');
+
+body {
+    background: hsl(217, 54%, 11%);
+    padding: 0;
+    margin: 0;
+    
+}
+
+.conteiner {
+    width: 300px;
+    height: 480px;
+    background-color: hsl(216, 50%, 16%);
+    position: relative;
+    left: 1050px;
+    top: 200px;
+    border-radius: 15px;
+    box-shadow:  -6px -6px 2rem #000;
+}
+
+.imagem {
+    position: relative;
+    left: 25px;
+    top: 15px;
+    border-radius: 15px;
+}
+
+h3 {
+    position: relative;
+    left: 25px;
+    top: 15px;
+    color: aliceblue;
+}
+
+pre {
+    position: relative;
+    right: 60px;
+    top: 10px;
+    color: hsl(215, 51%, 70%);
+}
+
+.oikk {
+    position: relative;
+    top: 90000px;
+    left: 90px;
+
+}
+
+hr {
+    position: relative;
+    top: 37px;
+    width: 249px;
+}
+
+.pessoa1 {
+    width: 15px;
+    height: 15px;
+}
